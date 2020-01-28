@@ -1,5 +1,5 @@
 def reverse_each_word(sentence1)
- array = string.split(" ")
+ array = sentence1.split(" ")
  my_array = []
   array.collect do|string|
       my_array << string.reverse
