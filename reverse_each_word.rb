@@ -5,6 +5,6 @@ def reverse_each_word(sentence1)
    sentence1 = string.split(" ")
   return_array = []
   sentence1.each do|string|
-    return_array << sentence1.reverse
+    return_array << string.reverse
  end
 end 
